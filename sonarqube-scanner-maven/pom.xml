@@ -105,11 +105,12 @@
          
          
 <distributionManagement>
+   
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>CS09-PC-snapshots</name>
-        <url>http://localhost:8082/artifactory/libs-snapshot-local</url>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://localhost:8081/repository/maven-snapshots</url>
     </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
 
 </project>
