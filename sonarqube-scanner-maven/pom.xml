@@ -104,11 +104,12 @@
   </profiles>
          
          
- <distributionManagement>
+<distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
         <name>CS09-PC-snapshots</name>
         <url>http://localhost:8082/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
+
 </project>
