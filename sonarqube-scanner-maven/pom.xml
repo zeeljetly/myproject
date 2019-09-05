@@ -100,7 +100,7 @@
       </build>
     </profile>
   </profiles>
-         
+        <!-- Deploy to jfrog artifactory --> 
          
    <distributionManagement>
     <snapshotRepository>
